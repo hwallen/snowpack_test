@@ -1,0 +1,26 @@
+SMET 1.1 ASCII
+[HEADER]
+station_id       = tahtela
+station_name     = Sodankylä
+latitude         = 26.624953814147027
+longitude        = 67.3670068323159 
+altitude         = 180
+nodata           = -999                         ;code indicating a missing value
+tz               = 2                            ;time zone in hours
+source           = WSL-SLF                      ;optional key
+ProfileDate      = 2022-10-01T00:00             ;when was the profile made, see explanations above
+HS_Last          = 0.0000                       ;last measured snow height
+slope_angle       = 0.0
+slope_azi         = 0.0
+nSoilLayerData   = 0                            ;number of soil layers
+nSnowLayerData   = 0                            ;number of snow layers
+SoilAlbedo       = 0.2                         ;albedo of the exposed soil
+BareSoil_z0      = 0.020                        ;roughtness length of the exposed soil
+CanopyHeight     = 0.00                         ;height (in m) of the canopy
+CanopyLeafAreaIndex     = 0.00          
+CanopyDirectThroughfall = 1.00          
+WindScalingFactor       = 1.00                  ;some stations consistently measure a wind that is too low
+ErosionLevel     = 0                            
+TimeCountDeltaHS = 0.000000                     
+fields           = timestamp Layer_Thick  T  Vol_Frac_I  Vol_Frac_W  Vol_Frac_V  Vol_Frac_S Rho_S Conduc_S HeatCapac_S  rg  rb  dd  sp  mk mass_hoar ne CDot metamo
+[DATA]
